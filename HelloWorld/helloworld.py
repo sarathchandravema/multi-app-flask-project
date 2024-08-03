@@ -9,6 +9,3 @@ class HelloWorld(Resource):
         return {"hello": "world"}
 
 api.add_resource(HelloWorld, "/hw")
-
-if __name__ == "__main__":
-    app.run(debug=True)
